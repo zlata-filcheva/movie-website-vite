@@ -1,23 +1,77 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import { setupCounter } from './counter'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+  <div class="grid-container grid-container-maxContent-auto-maxContent">
+<div id="site-menu">
+<div class="text text1">
+<a href="./pages/genres.html">Жанры фильмов</a>
+</div>
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+<div class="text">
+<a href="main/cinema/emerofcin.html"> Возникновение кино</a>
+</div>
+
+<div class="text">
+<a href="main/cinema/startofcinema.html"> Начальный период развития кино</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/soundfilmdevelopment.html"> Развитие звукового кино</a>
+</div>
+
+<div class="text">
+<a href="main/cinema/colorfilmdev.html">Развитие цветного кино</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/specialeffects.html"> Основы монтажа и спецэффектов</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/producers.html"> Культовые режиссеры</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/moviespremieres.html">Первые кинопремии и кинофестивали</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/Pirmieji kino seansai.html"> Pirmieji kino seansai</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/Pirmieji kino filmai.html"> Pirmieji kino filmai</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/Laiškai iš tėvynės.html"> Laiškai iš tėvynės</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/Lietuvių pėdsakai Holivude.html"> Lietuvių pėdsakai Holivude</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/Sovietmetis.html"> Sovietmetis</a>
+</div>
+
+<div class="text">
+<a href="./main/cinema/Kinas nepriklausomoje Lietuvoje.html">Kinas nepriklausomoje Lietuvoje
+</a>
+</div>
+</div>
+
+<div></div>
+
+<div>
+<div id="startsoon">
+<img src="456.png" alt="start soon" class="ad-image">
+</div>
+
+<div>
+<img src="888.gif" alt="camera for sale" class="ad-image">
+</div>
+</div>
+</div>
+
+`

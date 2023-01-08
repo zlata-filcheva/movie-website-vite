@@ -1,0 +1,16 @@
+export const MAIN_MENU = [
+    'Жанры фильмов',
+    'Возникновение кино',
+    'Начальный период развития кино',
+    'Развитие звукового кино',
+    'Развитие цветного кино',
+    'Основы монтажа и спецэффектов',
+    'Культовые режиссеры',
+    'Первые кинопремии и кинофестивали',
+    'Pirmieji kino seansai',
+    'Pirmieji kino filmai',
+    'Laiškai iš tėvynės',
+    'Lietuvių pėdsakai Holivude',
+    'Sovietmetis',
+    'Kinas nepriklausomoje Lietuvoje',
+]
