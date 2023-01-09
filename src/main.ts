@@ -1,77 +1,22 @@
 import './style.css'
+import SiteMenu from "./pages/SiteMenu";
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div class="grid-container grid-container-maxContent-auto-maxContent">
-<div id="site-menu">
-<div class="text text1">
-<a href="./pages/genres.html">Жанры фильмов</a>
-</div>
+<div class="grid-container grid-container-maxContent-auto-maxContent">
+    <div class="site-menu" id="siteMenu">
+        ${SiteMenu()} 
+    </div>
 
-<div class="text">
-<a href="main/cinema/emerofcin.html"> Возникновение кино</a>
-</div>
+    <div></div>
 
-<div class="text">
-<a href="main/cinema/startofcinema.html"> Начальный период развития кино</a>
+    <div>
+        <div id="startsoon">
+            <img src="456.png" alt="start soon" class="ad-image">
+        </div>
+    
+        <div>
+            <img src="888.gif" alt="camera for sale" class="ad-image">
+        </div>
+    </div>
 </div>
-
-<div class="text">
-<a href="./main/cinema/soundfilmdevelopment.html"> Развитие звукового кино</a>
-</div>
-
-<div class="text">
-<a href="main/cinema/colorfilmdev.html">Развитие цветного кино</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/specialeffects.html"> Основы монтажа и спецэффектов</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/producers.html"> Культовые режиссеры</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/moviespremieres.html">Первые кинопремии и кинофестивали</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/Pirmieji kino seansai.html"> Pirmieji kino seansai</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/Pirmieji kino filmai.html"> Pirmieji kino filmai</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/Laiškai iš tėvynės.html"> Laiškai iš tėvynės</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/Lietuvių pėdsakai Holivude.html"> Lietuvių pėdsakai Holivude</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/Sovietmetis.html"> Sovietmetis</a>
-</div>
-
-<div class="text">
-<a href="./main/cinema/Kinas nepriklausomoje Lietuvoje.html">Kinas nepriklausomoje Lietuvoje
-</a>
-</div>
-</div>
-
-<div></div>
-
-<div>
-<div id="startsoon">
-<img src="456.png" alt="start soon" class="ad-image">
-</div>
-
-<div>
-<img src="888.gif" alt="camera for sale" class="ad-image">
-</div>
-</div>
-</div>
-
 `

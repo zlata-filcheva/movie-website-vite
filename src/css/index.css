@@ -78,7 +78,7 @@ body {
    border: 3px solid black;
 }
 
-#site-menu {
+.site-menu {
    border: 0.2rem solid whitesmoke;
    padding: 10px;
 }
