@@ -1,5 +1,5 @@
 import './style.css'
-import SiteMenu from "./pages/SiteMenu";
+import SiteMenu from "./components/SiteMenu";
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div class="grid-container grid-container-maxContent-auto-maxContent">

@@ -2,7 +2,7 @@ import {MAIN_MENU} from "../constants/url";
 
 const SiteMenu = () => {
     return MAIN_MENU
-        .map((value) => {
+        .map(({name, component}) => {
             const url = value
                 .split(' ')
                 .map(str => str.toLowerCase())
