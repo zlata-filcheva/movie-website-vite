@@ -2,15 +2,15 @@ import {MAIN_MENU} from "../constants/url";
 
 const SiteMenu = () => {
     return MAIN_MENU
-        .map(({name, component}) => {
-            const url = value
+        .map(({name}) => {
+            const url = name
                 .split(' ')
                 .map(str => str.toLowerCase())
                 .join('-');
 
             return `
                 <div class="text text1">
-                    <a href="./${url}">${value}</a>
+                    <a href="./${url}">${name}</a>
                 </div>
             `;
         })

@@ -3,7 +3,7 @@ import FilmGenres from "../pages/FilmGenres";
 export const MAIN_MENU = [
     {
         name: 'Жанры фильмов',
-        component: FilmGenres
+        component: FilmGenres()
     },
     {
         name: 'Возникновение кино',
